@@ -10,8 +10,9 @@ class SshController extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function ssh2()
+
+    public function sshTest()
     {
-        return [];
+        return '';
     }
 }
